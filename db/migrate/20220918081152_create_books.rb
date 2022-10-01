@@ -4,9 +4,7 @@ class CreateBooks < ActiveRecord::Migration[6.1]
 
       t.string :title
       t.text :body
-      t.string :edit
-      t.string :update
-      t.string :destroy
+
 
       t.timestamps
     end
